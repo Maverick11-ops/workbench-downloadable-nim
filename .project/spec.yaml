@@ -106,7 +106,7 @@ execution:
             url: http://localhost:8501
     resources:
         gpu:
-            requested: 1
+            requested: 0
         sharedMemoryMB: 0
     secrets:
         - variable: NVIDIA_API_KEY

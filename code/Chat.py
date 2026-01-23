@@ -296,7 +296,7 @@ with col_gpu1:
                 min_value=1,
                 max_value=16,
                 value="min",
-                key="gpu_num",
+                key="gpu_num", 
                 step=1,
                 on_change=reset_gpus
             )
